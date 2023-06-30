@@ -1,12 +1,28 @@
-h1 {
+* {
     font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
     text-align: center;
     font-size: 64px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #header {
     margin: auto;
     width: 50%;
+    max-width: 480px;
 }
 
 .recipe-card {
@@ -23,13 +39,6 @@ h1 {
     margin-right: 32px;
 }
 
-h3 {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 24px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
 .recipe-image {
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,11 +50,11 @@ h3 {
     background-image: url(img/burger.png);
 }
 
-#pancakes {
+.pancakes {
     background-image: url(img/pancakes.jpeg);
 }
 
-#skewers {
+.skewers {
     background-image: url(img/skewers.jpeg);
 }
 
@@ -66,7 +75,6 @@ h3 {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 0;
     margin-bottom: 24px;
     font-size: 18px;
@@ -102,13 +110,6 @@ a {
     max-width: 800px;
 }
 
-h2 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 40px;
-}
-
 .burger-overlay {
     background-image: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url(img/burger.png);
 }
@@ -128,7 +129,6 @@ h2 {
 }
 
 li {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.125rem;
     line-height: 1.7777778;
 }
@@ -159,7 +159,6 @@ ol li {
     background-color: white;
     border: 2px solid black;
     padding: 12px;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
